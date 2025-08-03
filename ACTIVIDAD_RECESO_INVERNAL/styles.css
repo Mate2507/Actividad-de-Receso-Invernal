@@ -1,0 +1,39 @@
+body {
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #03002ccb;
+  color: #ff769f;
+  padding: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+
+input, button {
+  padding: 15px;
+  margin: 15px;
+  font-size: 20px;
+  border-radius: 40px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: rgb(0, 0, 0);
+}
+
+@media (max-width: 600px) {
+  input, button {
+    width: 80%;
+  }
+}
